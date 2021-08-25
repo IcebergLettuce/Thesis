@@ -12,11 +12,10 @@ This repository contains the source code and the end-to-end pipeline of the Thes
 # Running the end-to-end pipeline
 
 One can run the full end-to-end pipeline locally and get an impression of how the framework works. Just follow this simple guide:\
-\
+
 **Requirements:**
 - [Docker](https://www.docker.com/)
 
-\
 **How To:**
 1. Navigate to your home directory ``cd ~ ``
 2. Create a folder with the name example ``mkdir example ``
