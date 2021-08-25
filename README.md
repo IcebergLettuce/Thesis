@@ -1,9 +1,9 @@
 # Foreword
 
+This repository contains the source code and the end-to-end pipeline of the Thesis: "xxx". 
 
-# Content
 
-This repository contains the following:
+**This repository contains the following:**
 
 - Do-It-Yourself: docker image and explanation for running the end-to-end pipeline by yourself without having access to the HPC and without the struggle of installing dependencies.
 - Source code of the thesis "xyz".
