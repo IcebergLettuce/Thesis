@@ -1,6 +1,6 @@
 # Foreword
 
-This repository contains the source code and the end-to-end pipeline of the Thesis: "xxx". 
+This repository contains the source code and the end-to-end pipeline of the Thesis: "xxx." We added an explanation to run the pipeline locally within a Docker container. The original data used in the study is a property of Charite and, unfortunately publicly not available.
 
 
 **This repository contains the following:**
