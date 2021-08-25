@@ -1,6 +1,13 @@
-# Foreword
+# Content
 
-This repository contains the source code and the end-to-end pipeline of the Thesis: "xxx." We added an explanation to run the pipeline locally within a Docker container. The original data used in the study is a property of Charite and, unfortunately publicly not available.
+This repository contains the source code and the end-to-end pipeline of the Thesis: "xxx.". The system was developed to run on the High-Performance Cluster of the Berlin Institute of Health to automate experiments. This system allowed to run many experiments with as little manual overhead as possible.
+
+The original data used in the study is a property of Charite and, unfortunately, publicly not available. However, we made it possible to experience the end-to-end pipeline locally within a Docker container.
+
+We emphasize running the Docker example on a local machine and experience the framework and how it works. We hope that this - still - sketchy implementation motivates people to automate their workflows similarly.
+
+**Improvements and Directions:**\
+We suggest splitting the framework into multiple stand-alone applications (microservices) and maintain them in their repositories. They would be served as APIs to the user who develops their model against these APIs. Additionally, we recommend using a proper relational database instead of the filesystem.
 
 
 **This repository contains the following:**
@@ -11,7 +18,7 @@ This repository contains the source code and the end-to-end pipeline of the Thes
 
 # Running the end-to-end pipeline
 
-One can run the full end-to-end pipeline locally and get an impression of how the framework works. Just follow this simple guide:\
+One can run the full end-to-end pipeline locally and get an impression of how the framework works. Just follow this simple guide:
 
 **Requirements:**
 - [Docker](https://www.docker.com/)
